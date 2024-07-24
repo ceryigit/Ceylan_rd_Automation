@@ -22,6 +22,8 @@ public abstract class Person {
     public void printRetirementAge() {
         int yearsLeft = calculateRetirementAge();
         System.out.println(getFullName() + " için emekliliğe kalan yıl: " + yearsLeft);
+        System.out.println(getFullName() + " için emekliliğe kalan yıl: " + yearsLeft);
+
     }
 }
 
